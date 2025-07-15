@@ -1,0 +1,450 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "hood togle"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "LANTERN"
+		},
+		{
+			"Id": "Param25",
+			"GroupId": "",
+			"Name": "angry"
+		},
+		{
+			"Id": "Param26",
+			"GroupId": "",
+			"Name": "sad"
+		},
+		{
+			"Id": "Param27",
+			"GroupId": "",
+			"Name": "happy"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "Angle X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "Angle Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "Angle Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "EyeL Open"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "",
+			"Name": "EyeL Smile"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "EyeR Open"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "EyeR Smile"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "Eyeball X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "Eyeball Y"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "BrowL Y"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "BrowR Y"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "",
+			"Name": "BrowL X"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "",
+			"Name": "BrowR X"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "BrowL Angle"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "BrowR Angle"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "BrowL Form"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "BrowR Form"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "Mouth Form"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "Mouth Open"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "Cheek"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "Body X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "",
+			"Name": "Body Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "Body Z"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "Breath"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "",
+			"Name": "Hair Move Front"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "",
+			"Name": "Hair Move Side"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "",
+			"Name": "Hair Move Back"
+		},
+		{
+			"Id": "Param32",
+			"GroupId": "",
+			"Name": "er1"
+		},
+		{
+			"Id": "Param33",
+			"GroupId": "",
+			"Name": "er2"
+		},
+		{
+			"Id": "Param34",
+			"GroupId": "",
+			"Name": "el1"
+		},
+		{
+			"Id": "Param35",
+			"GroupId": "",
+			"Name": "el2"
+		},
+		{
+			"Id": "Param23",
+			"GroupId": "",
+			"Name": "lantern 1"
+		},
+		{
+			"Id": "Param24",
+			"GroupId": "",
+			"Name": "lantern2"
+		},
+		{
+			"Id": "Param21",
+			"GroupId": "",
+			"Name": "hs"
+		},
+		{
+			"Id": "Param22",
+			"GroupId": "",
+			"Name": "hs1"
+		},
+		{
+			"Id": "Param17",
+			"GroupId": "",
+			"Name": "shy"
+		},
+		{
+			"Id": "Param18",
+			"GroupId": "",
+			"Name": "shy"
+		},
+		{
+			"Id": "Param15",
+			"GroupId": "",
+			"Name": "sh1"
+		},
+		{
+			"Id": "Param16",
+			"GroupId": "",
+			"Name": "sh1"
+		},
+		{
+			"Id": "Param19",
+			"GroupId": "",
+			"Name": "sby"
+		},
+		{
+			"Id": "Param20",
+			"GroupId": "",
+			"Name": "sby"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "",
+			"Name": "sb1"
+		},
+		{
+			"Id": "Param14",
+			"GroupId": "",
+			"Name": "sb1"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "",
+			"Name": "sb"
+		},
+		{
+			"Id": "Param12",
+			"GroupId": "",
+			"Name": "sb"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "f1"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "f2"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "s1"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "s2"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "b1"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "",
+			"Name": "b2"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "",
+			"Name": "ahoge"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "",
+			"Name": "ahoge"
+		},
+		{
+			"Id": "Param28",
+			"GroupId": "",
+			"Name": "haz"
+		},
+		{
+			"Id": "Param29",
+			"GroupId": "",
+			"Name": "hay"
+		},
+		{
+			"Id": "Param30",
+			"GroupId": "",
+			"Name": "bax"
+		},
+		{
+			"Id": "Param31",
+			"GroupId": "",
+			"Name": "bay"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "chara",
+			"Name": "chara"
+		},
+		{
+			"Id": "Part16",
+			"Name": "hood toggle"
+		},
+		{
+			"Id": "hood",
+			"Name": "hood"
+		},
+		{
+			"Id": "head",
+			"Name": "head"
+		},
+		{
+			"Id": "upper",
+			"Name": "upper"
+		},
+		{
+			"Id": "sleeve",
+			"Name": "sleeve"
+		},
+		{
+			"Id": "bottom",
+			"Name": "bottom"
+		},
+		{
+			"Id": "Part15",
+			"Name": "back hair"
+		},
+		{
+			"Id": "Part",
+			"Name": "ribbon ahoge"
+		},
+		{
+			"Id": "Part2",
+			"Name": "middle bangs"
+		},
+		{
+			"Id": "Part3",
+			"Name": "side bangs"
+		},
+		{
+			"Id": "Part4",
+			"Name": "angry expression"
+		},
+		{
+			"Id": "Part5",
+			"Name": "sad expressions"
+		},
+		{
+			"Id": "Part6",
+			"Name": "happy expressions"
+		},
+		{
+			"Id": "Part8",
+			"Name": "eyes l"
+		},
+		{
+			"Id": "Part10",
+			"Name": "eyes r"
+		},
+		{
+			"Id": "Part7",
+			"Name": "neutral expressions"
+		},
+		{
+			"Id": "ears",
+			"Name": "ears"
+		},
+		{
+			"Id": "jacket",
+			"Name": "jacket"
+		},
+		{
+			"Id": "neck",
+			"Name": "neck"
+		},
+		{
+			"Id": "Part13",
+			"Name": "hand toggle"
+		},
+		{
+			"Id": "Part14",
+			"Name": "hand normal"
+		},
+		{
+			"Id": "l",
+			"Name": "l"
+		},
+		{
+			"Id": "r",
+			"Name": "r"
+		},
+		{
+			"Id": "l2",
+			"Name": "l"
+		},
+		{
+			"Id": "r2",
+			"Name": "r"
+		},
+		{
+			"Id": "Part9",
+			"Name": "pupils Copy 5"
+		},
+		{
+			"Id": "pupils",
+			"Name": "pupils"
+		},
+		{
+			"Id": "mouth",
+			"Name": "mouth"
+		},
+		{
+			"Id": "belts",
+			"Name": "belts"
+		},
+		{
+			"Id": "Part11",
+			"Name": "upper details"
+		},
+		{
+			"Id": "Part12",
+			"Name": "lower detail"
+		},
+		{
+			"Id": "inside",
+			"Name": "inside"
+		}
+	]
+}

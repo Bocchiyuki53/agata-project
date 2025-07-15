@@ -1,0 +1,27 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "ira.moc3",
+		"Textures": [
+			"ira.8192/texture_00.png",
+			"ira.8192/texture_01.png"
+		],
+		"Physics": "ira.physics3.json",
+		"DisplayInfo": "ira.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}
