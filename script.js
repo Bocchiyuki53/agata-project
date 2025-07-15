@@ -41,21 +41,44 @@
         });
         
         // Form submission
-        const contactForm = document.getElementById('contact-form');
-        contactForm.addEventListener('submit', function(e) {
+        const contactForm = document.querySelector('form');
+        contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
             
             // Get form values
             const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
             const service = document.getElementById('service').value;
-            const message = document.getElementById('message').value;
+            const brief = document.getElementById('message').value;
             
-            // Here you would typically send the data to a server
-            // For demo purposes, we'll just show an alert
-            alert(`Terima kasih, ${name}! Pesan Anda telah diterima. Kami akan segera menghubungi Anda mengenai layanan ${service} kami.`);
+            // Validate form
+            if (!name || !service || !brief) {
+                alert('Mohon lengkapi semua kolom yang wajib diisi.');
+                return;
+            }
+
+            // Map service value to display text
+            let serviceDisplayName = '';
+            switch (service) {
+                case 'full-body':
+                    serviceDisplayName = 'Full Body';
+                    break;
+                case 'half-body':
+                    serviceDisplayName = 'Half Body';
+                    break;
+                case 'bust-up':
+                    serviceDisplayName = 'Bust Up';
+                    break;
+                default:
+                    serviceDisplayName = service; // Fallback
+            }
+
+            // Create WhatsApp message
+            const waMessage = `Halo, saya ${name}. Saya tertarik dengan layanan ${serviceDisplayName}. Brief saya: ${brief}`;
+            const waLink = `https://wa.me/6285643354338?text=${encodeURIComponent(waMessage)}`;
+
+            // Open WhatsApp link
+            window.open(waLink, '_blank');
             
-            // Reset form
             contactForm.reset();
         });
         
