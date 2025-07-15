@@ -78,47 +78,5 @@
             observer.observe(el);
         });
 
-        // Live2D Model
-        (async function() {
-            const canvas = document.getElementById('live2d-canvas');
-            const container = document.getElementById('live2d-container');
-
-            try {
-                const app = new PIXI.Application({
-                    view: canvas,
-                    autoStart: true,
-                    resizeTo: container,
-                    transparent: true
-                });
-
-                const model = await PIXI.live2d.Live2DModel.from('images/live2d-model/Ira/Ira.model3.json');
-
-                app.stage.addChild(model);
-
-                // Automatic scaling
-                const scale = Math.min(app.renderer.width / model.width, app.renderer.height / model.height) * 0.8;
-                model.scale.set(scale);
-
-                // Center the model
-                model.anchor.set(0.5, 0.5);
-                model.position.set(app.renderer.width / 2, app.renderer.height / 2);
-
-                // Interaction
-                model.on('hit', (hitAreas) => {
-                    if (hitAreas.includes('Head')) {
-                    model.motion('Tap');
-                    }
-                });
-
-                // Model follow cursor
-                app.stage.interactive = true;
-                app.stage.on('pointermove', (e) => {
-                    model.focus(e.data.global.x, e.data.global.y)
-                });
-
-            } catch (e) {
-                console.error(e);
-                container.innerHTML = `<div style="color: red; text-align: center; padding-top: 50px;">Failed to load Live2D model. Check console for details.</div>`;
-            }
-        })();
+        
     
